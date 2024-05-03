@@ -34,7 +34,8 @@ body {
     font-size: 70px;
     color: white;
     margin: 20px;
-    font-family: "times_new_roman_cyrregular"; 
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: "times_new_roman_cyrregular"; */
 }
 
 
