@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "times_new_roman_cyrregular";
+    src: url(public/fonts/times_new_roman-webfont.woff2) format("woff2"),
+        url(public/fonts/times_new_roman-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(public/fonts/montserrat-v26-vietnamese-regular.woff2) format("woff2");
+}
+
+
+* {
+    /* color: #e4e6eb; */
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* overflow: hidden;  */
+}
+
+.container {
+    position: absolute;
+}
+
+.container #title {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin: 20px;
+    font-family: "times_new_roman_cyrregular"; 
+}
+
+
+.container #info {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Home no login: home-nma.html, home-npk.html */
+.container .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #user {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container #redirect:link, #redirect:visited {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin: auto;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #f1f1f1;
+    border: solid 1px #f1f1f1;
+    text-align: center;
+}
+
+.container #redirect:hover, #redirect:active {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 0 0 20px white;
+}
+
+
+/* Error login: error-login.html */
+.container .error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #error-message {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container #re-login-btn:link, #re-login-btn:visited {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin: auto;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #f1f1f1;
+    border: solid 1px #f1f1f1;
+    text-align: center;
+}
+
+.container #re-login-btn:hover, #re-login-btn:active {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 0 0 20px white;
+}
+
+
+
+/* Form input */
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container #password {
+    /* color: #f1f1f1; */
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    border: none;
+    outline:none; 
+}
+
+.container button {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 100px;
+    border: solid 1px #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container button:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    box-shadow: 0 0 20px white;
+}
+
+/* Footer */
+.container p {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: small;
+}
+.container a {
+    color: white;
+    font-style: italic;
+}
+
+.container a:hover {
+    color: yellow;
+}
+
+/* Symbol */
+.container #symbol {
+    font-family: "times_new_roman_cyrregular"; 
+}
+
+/* Responsive */
+/* @media only screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        margin: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+} */
